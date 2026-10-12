@@ -1,0 +1,18 @@
+MEU CONTROLE DE FIIs — VERSÃO INICIAL
+
+Conteúdo:
+- index.html: app
+- manifest.json e icon.svg: metadados/ícone
+- sw.js: cache básico para uso offline
+
+FUNÇÕES:
+- Começa com 2 cotas de CPTS11 e 2 de TEPP11
+- Inserir preço e dividendo por cota
+- Renda mensal estimada atualiza automaticamente conforme o número de cotas
+- Registrar compras e dividendos recebidos
+- Histórico, meta de R$100/mês e backup/importação JSON
+- Dados salvos no armazenamento local do navegador
+
+IMPORTANTE SOBRE INSTALAÇÃO:
+Este pacote é um projeto de PWA, não um APK Android. Para o botão "Instalar app" funcionar como PWA no Chrome, os arquivos precisam estar publicados em um endereço HTTPS. Abrir o index.html localmente permite testar o app, mas não instala como PWA. O ZIP pode ser hospedado em um serviço estático HTTPS (por exemplo, GitHub Pages); depois abra o endereço no Chrome Android e use menu ⋮ > Instalar app / Adicionar à tela inicial.
+Os dados ficam no dispositivo/navegador e não sincronizam automaticamente entre aparelhos. Exporte backup regularmente.
